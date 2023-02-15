@@ -1,0 +1,270 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+ }
+
+ body {
+     font-family: 'Poppins';
+     background-color: black;
+ }
+
+ .contectUs {
+     background-color: black;
+ }
+
+ .navigation {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 15px;
+     background-color: black;
+     height: 100px;
+ }
+
+ .navigation .logo-wrapper {
+     display: flex;
+     align-items: center;
+     position: relative;
+     width: 100%;
+     max-width: 290px;
+ }
+
+ .navigation .logo-wrapper .text-wrapper {
+     position: absolute;
+     width: 50%;
+     left: 63px;
+     z-index: 999;
+ }
+
+ .text {
+     color: white;
+     font-size: 16px;
+     font-weight: bold;
+ }
+
+
+ .navigation .logo-wrapper .logo {
+     position: absolute;
+     width: 50%;
+     max-width: 100px;
+     left: 50%;
+
+ }
+
+ .navigation .logo-wrapper .logo img {
+     width: 100%;
+     height: auto;
+
+ }
+
+ .navigation ul {
+     float: right;
+     padding-right: 150px;
+     margin-left: 70px;
+     margin-top: 40px;
+ }
+
+ .navigation li {
+
+     display: inline;
+     margin: 11px;
+ }
+
+ .navigation li a {
+     text-decoration: none;
+     color: rgba(240, 248, 255, 0.646);
+     font-family: 'Poppins';
+     font-size: small;
+     font-weight: bold;
+
+ }
+
+ .navigation li.active a {
+     color: white;
+ }
+
+ .navigation li a:hover {
+     color: yellow
+ }
+
+
+ .fa-bars {
+     color: rgba(240, 248, 255, 0.581);
+     margin-left: 20px;
+     width: 1px;
+ }
+
+ /* ----------------------------navaiagtion finsish--------------------- */
+
+ .connect-wrapper {
+     background-color: black;
+ }
+
+ .text2 {
+     color: rgb(135, 80, 186);
+     font-weight: bold;
+     font-size: 25px;
+     margin-left: 50px;
+     padding-top: 80px
+ }
+
+ .row {
+     display: flex;
+     background-color: black;
+     flex-wrap: wrap;
+ }
+
+ .active1 {
+     color: rgb(135, 80, 186);
+
+ }
+
+ .image1 {
+     margin-top: 123px;
+     margin-left: 30px;
+ }
+
+ .image2 {
+     float: right;
+     margin-left: 170px;
+ }
+
+ .emailus-wrapper {
+     color: white;
+     text-align: center;
+     margin-left: 150px;
+     font-weight: lighter;
+
+
+ }
+
+ /* -------------------------connect-wrapper finish------------------- */
+
+ .contact-form {
+     text-align: center;
+     background-color: black;
+
+ }
+
+ .email {
+     border-radius: 40px;
+
+ }
+
+ .Message {
+     border-radius: 100px;
+ }
+
+ /* -------------------------connect-wrapper finish------------------- */
+ .office-wrapper {
+     height: auto;
+     width: 100%;
+     background-color: black;
+ }
+
+ .office-text {
+     width: 50%;
+     height: auto;
+     float: left;
+ }
+
+ .our-office {
+     color: rgb(135, 80, 186);
+     font-weight: 800;
+     font-size: 22px;
+     margin-left: 22px;
+ }
+
+
+ .location {
+     width: 50%;
+     height: auto;
+     float: right;
+ }
+
+ p.fix-location {
+     font-size: 20px;
+     color: white;
+     font-weight: bold;
+
+ }
+
+ .fix-color {
+     color: rgba(255, 255, 255, 0.538);
+ }
+
+
+ .space-indor img {
+     padding: 20px;
+     border-radius: 1px;
+     width: 95% !important;
+     height: 460px;
+
+ }
+
+ .space-google img {
+     padding: 20px;
+     border-radius: 1px;
+     width: 80% !important;
+ }
+
+ .fix-adress {
+     padding: 30px;
+     line-height: 15px;
+     margin-top: 20px;
+     margin-left: 20px;
+     color: white;
+
+ }
+
+ .add-text2 {
+     color: rgba(240, 248, 255, 0.485);
+ }
+
+ .address-text {
+
+
+     margin-right: 450px;
+ }
+
+ .image-indor {
+     margin-left: 70px;
+     height: 208px;
+     width: auto;
+
+
+ }
+
+
+ .image-google {
+     margin-right: 300px;
+     float: center;
+ }
+
+ .fa-row {
+     display: flex;
+     color: white;
+     background-color: black;
+     padding-top: 200px;
+ }
+
+ .icon .fa-brands {
+
+     text-align: center;
+     background-color: black;
+     color: white;
+     padding: 12px;
+     border-radius: 50%;
+
+ }
+
+
+ .fa-brands i {
+     justify-content: space-between;
+     cursor: pointer;
+     font-size: 14px;
+     border-radius: 50%;
+     border: none;
+ }
